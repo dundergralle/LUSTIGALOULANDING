@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Redirecting...</title>
+</head>
+<body>
+<script>
+var path = window.location.pathname.replace(/\/$/, '');
+
+if (path === '/link') {
+  window.location.replace('LÄNK-1-HÄR');
+}
+
+if (path === '/link2') {
+  window.location.replace('LÄNK-2-HÄR');
+}
+</script>
+</body>
+</html>
